@@ -1,6 +1,6 @@
 {
   "name": "task-log-cache",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "redis-based task-log-cache",
   "main": "index.js",
   "scripts": {
