@@ -1,0 +1,39 @@
+{
+  "name": "task-log-cache",
+  "version": "0.1.0",
+  "description": "redis-based task-log-cache",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint index.js",
+    "lint-test": "eslint test/index.js",
+    "test": "nyc --reporter=text mocha --timeout 60000",
+    "coverage": "nyc --reporter=text-lcov mocha --timeout 60000 | coveralls",
+    "go": "npm run lint && npm run lint-test && npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drpaulbrewer/task-log-cache.git"
+  },
+  "keywords": [
+    "redis",
+    "tasks",
+    "task log"
+  ],
+  "author": "drpaulbrewer@eaftc.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/drpaulbrewer/task-log-cache/issues"
+  },
+  "homepage": "https://github.com/drpaulbrewer/task-log-cache#readme",
+  "devDependencies": {
+    "coveralls": "^3.0.3",
+    "eslint": "^6.2.1",
+    "ioredis": "^4.14.0",
+    "mocha": "^6.2.0",
+    "nyc": "^14.1.1",
+    "should": "^13.2.3"
+  },
+  "dependencies": {
+    "@hapi/joi": "^15.0.3"
+  }
+}
