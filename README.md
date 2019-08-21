@@ -23,9 +23,8 @@ Developers using this library must pass a configured `npm:ioredis` client on ini
 Below is a sample configuration to:
 
 ```
-const ioredis = require('ioredis');
-const taskStatusCache = require('task-status-cache');
 const IoRedis = require('ioredis');
+const taskStatusCache = require('task-status-cache');
 const redisServerLocal = {
   host: "localhost",
   port: 6379,
