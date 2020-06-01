@@ -1,7 +1,7 @@
 # task-log-cache
 
 [![Build Status](https://travis-ci.org/DrPaulBrewer/task-log-cache.svg?branch=master)](https://travis-ci.org/DrPaulBrewer/task-log-cache)
-[![Coverage Status](https://coveralls.io/repos/github/DrPaulBrewer/task-log-cache/badge.svg?branch=master)](https://coveralls.io/github/DrPaulBrewer/task-log-cache?branch=master) [![Greenkeeper badge](https://badges.greenkeeper.io/DrPaulBrewer/task-log-cache.svg)](https://greenkeeper.io/)
+[![Coverage Status](https://coveralls.io/repos/github/DrPaulBrewer/task-log-cache/badge.svg?branch=master)](https://coveralls.io/github/DrPaulBrewer/task-log-cache?branch=master) 
 
 Redis-based task status log/cache
 
